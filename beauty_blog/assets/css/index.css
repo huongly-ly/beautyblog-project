@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+}
+
+.header {
+  height: 46px;
+  margin-top: 20px;
+  background-color: transparent; /* màu trong suốt */
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header li {
+  list-style: none;
+}
+
+.main-header {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0 15px;
+  color: rgb(172, 168, 168);
+}
+
+.nav li a:hover {
+  color: white;
+  background-color: black;
+}
+.nav a {
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  color: pink;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+.social {
+  margin-right: 12px;
+}
+
+.list-social {
+  padding: 0;
+}
+
+.list-social li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 15px;
+}
+
+.list-social a {
+  color: rgb(126, 122, 122);
+}
+
+.list-social a:hover {
+  color: rgb(192, 189, 189);
+}
+
+.slogan {
+  color: pink;
+  padding-top: 65px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@font-face {
+  font-family: font_strong;
+  src: url("../fonts/SortsMillGoudy-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.slogan .desc {
+  font-family: font_strong;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.image-main-post {
+  background-size: 50%;
+}
+
+.footer {
+  margin: 220px 0 20px 0;
+}
+
+.sign-up p {
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+}
+
+.ipnut-email {
+  margin-left: 540px;
+}
+
+.send-email {
+  width: 30%;
+  height: 40px;
+  border-style: none none solid none;
+  border-color: rgb(75, 102, 53);
+}
+
+.send {
+  text-decoration: none;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(75, 102, 53);
+  color: rgb(230, 190, 190);
+  margin-left: 10px;
+}
+
+.send:hover {
+  background-color: pink;
+  color: rgb(75, 102, 53);
+}
+
+.list-footer-social {
+  display: inline-flex;
+  margin-left: 500px;
+}
+
+.list-footer-social a {
+  color: rgb(126, 122, 122);
+}
+
+.list-footer-social a:hover {
+  color: rgb(192, 189, 189);
+}
+
+.list-footer-social li {
+  list-style: none;
+  padding: 0 15px;
+  margin-top: 60px;
+}
+
+.coppyright {
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(126, 122, 122);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
